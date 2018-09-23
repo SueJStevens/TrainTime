@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* 
+    Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read 
+    Photo by Dan Paul on Unsplash
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/dan-paul-97267-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/darren-bockman-58266-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/vicente-veras-801091-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/yucel-moran-599187-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/david-solce-485878-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/michael-bergmann-369547-unsplash.jpg");
+    background-image: url("../images/denis-chick-798380-unsplash.jpg");
+    */
+
+    background-image: url("../images/drew-farwell-481107-unsplash.jpg");
+
+    /* Set a specific height */
+    height: 25%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: #FECF23;
+}
+
+h1 {
+    font-size: 5.5rem;
+}
+
+.bg-dark {
+    background-color: #092742!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FECF23;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.thead-dark th {
+    color: #fff;
+    background-color:  #092742!important;
+    border-style: solid;
+    border-color: #092742!important;
+    font-size: 1rem!important;
+    font-weight: 500!important;
+}
+
+caption {
+    caption-side: top;
+    text-align: center;
+    color: #fff;
+    background-color:  #092742!important;
+    border-style: solid;
+    border-color: #092742!important;
+    font-size: 1.25rem!important;
+    font-weight: 500!important;
+}
+
+.card-header {
+    text-align: center;
+    color: #fff;
+    background-color:  #092742!important;
+    border-style: solid;
+    border-color: #092742!important;
+    font-size: 1.25rem!important;
+    font-weight: 500!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:  #114e85;
+    border-style: solid;
+    border-color: #092742;
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+color: #092742 !important;
+border: 1px solid #030c15;
+background-color: #499ce7;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #499ce7), color-stop(100%, #13548e));
+/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #499ce7 0%, #13548e 100%);
+/* Chrome10+,Safari5.1+ */
+background: -moz-linear-gradient(top, #499ce7 0%, #13548e 100%);
+/* FF3.6+ */
+background: -ms-linear-gradient(top, #499ce7 0%, #13548e 100%);
+/* IE10+ */
+background: -o-linear-gradient(top, #499ce7 0%, #13548e 100%);
+/* Opera 11.10+ */
+background: linear-gradient(to bottom, #499ce7 0%, #13548e 100%);
+/* W3C */ }
