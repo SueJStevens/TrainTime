@@ -1,0 +1,31 @@
+//1 year ago seems wrong to me.
+
+If day is not evenly divisable by the frequency then using one year ago changes the start time of the first train every day.  So the poor guy trying to get to work doesn't know what time to arrive at the station.
+
+If the first train (as defined / entered into DB) is after the current time then that train is the next train.
+
+If the calculated next train is after midnight then the next train is the first train of the next day.
+
+Example:
+1st train is 5:30 am
+You are on the platform at 11:45 pm
+The train runs every 60 minutes
+What time is the next train?
+12:30 am -- right?  No!  Wrong!  Because the first train of the day is at 5:30 am.  So the next train for the poor drunk sucker on the platform is 5:30 am.
+
+How do we know the train was first put into service 1 year ago?
+
+/--------------------------------------------------------------/
+
+//assume firstTrainTime is the first train of the day for each day every day.
+
+//compare current time to first train time; 
+	if current time is prior to first train time then the next train is the first train of the day.  
+	Otherwise calculate difference between current time and first train time
+		Take modulo of that difference divided by frequency and that is how many minutes until the train arrives
+
+//calculated the time of next train 
+	current time + modulo
+
+//if current time + modulo is next day then next train = 1st train of next day
+
