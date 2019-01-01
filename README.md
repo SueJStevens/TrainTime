@@ -7,7 +7,7 @@ Bootcamp Assignment 9/22/18 - Train Scheduler
  Please check it out [here](https://suejstevens.github.io/TrainTime/).
 
 ## Companion Homework Assignments
-This companion app was developed because the original homework assignment (found [here]) and the week's in-class activities contained numerous flaws illustrated [here] (https://github.com/SueJStevens/TrainsDoNotRunOnTime/blob/master/activityLogicFlaws.txt).
+This companion app was developed because the original homework assignment (found [here]https://github.com/SueJStevens/TrainTime/blob/master/Homework_Train_Activity_Basic.md) and the week's in-class activities contained numerous flaws illustrated [here] (https://github.com/SueJStevens/TrainsDoNotRunOnTime/blob/master/activityLogicFlaws.txt).
 *Trains Do Not Run On Time* is deployed to Github.     
  Please check it out [here] (https://suejstevens.github.io/TrainsDoNotRunOnTime/).    
  
